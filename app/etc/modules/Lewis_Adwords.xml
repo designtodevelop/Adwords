@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+	<modules>
+		<Lewis_Adwords>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Lewis_Adwords>
+	</modules>
+</config>

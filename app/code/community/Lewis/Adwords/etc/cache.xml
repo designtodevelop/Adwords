@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<config>
+	<placeholders>
+		<adwords_conversion>
+			<block>adwords/conversion</block>
+			<placeholder>ADWORDS_CONVERSION</placeholder>
+			<container>Lewis_Adwords_Model_PageCache_Container_Conversion</container>
+			<cache_lifetime>1</cache_lifetime>
+		</adwords_conversion>
+	</placeholders>
+</config>

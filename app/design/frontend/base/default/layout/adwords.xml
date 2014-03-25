@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<layout>
+
+	<default>
+		<reference name="before_body_end">
+			<block type="adwords/remarketing" name="adwords.remarketing" template="adwords/remarketing.phtml" />
+		</reference>
+	</default>
+
+	<checkout_onepage_success>
+		<reference name="content">
+			<block type="adwords/conversion" name="adwords.conversion" template="adwords/conversion.phtml" />
+		</reference>
+	</checkout_onepage_success>
+
+</layout>

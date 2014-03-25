@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<config>
+
+	<modules>
+		<Lewis_Adwords>
+			<version>0.2.1</version>
+			<platform>ee</platform>
+		</Lewis_Adwords>
+	</modules>
+
+	<global>
+		<blocks>
+			<adwords>
+				<class>Lewis_Adwords_Block</class>
+			</adwords>
+		</blocks>
+		<helpers>
+			<adwords>
+				<class>Lewis_Adwords_Helper</class>
+			</adwords>
+		</helpers>
+		<models>
+			<adwords>
+				<class>Lewis_Adwords_Model</class>
+			</adwords>
+		</models>
+	</global>
+
+	<frontend>
+		<layout>
+			<updates>
+				<adwords>
+					<file>adwords.xml</file>
+				</adwords>
+			</updates>
+		</layout>
+	</frontend>
+
+</config>
