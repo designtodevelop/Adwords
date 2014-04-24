@@ -1,7 +1,7 @@
 <script type="text/javascript">
 //<![CDATA[
 	var google_conversion_id = <?php echo $this->getAdwordsId() ?>;
-	var google_custom_params = window.google_tag_params;
+	var google_custom_params = <?php echo $this->_getTagParams(); ?>;
 	var google_remarketing_only = true;
 //]]>
 </script>
